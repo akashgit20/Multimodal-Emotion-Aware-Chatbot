@@ -18,6 +18,7 @@ It integrates speech, vision, and natural language understanding to create an em
 
 🪶 Built with Streamlit for a simple and interactive web UI
 
+
 🧩 Architecture Overview
 
 User speaks → Audio recorded via microphone
@@ -38,7 +39,7 @@ Response Generation → LLM generates an empathetic response
 
 Voice Output → Response is converted to speech (TTS)
 
-⚙️ Installation
+⚙️ Installation\\
 1️⃣ Clone the repository
 git clone https://github.com/your-username/multimodal-emotion-chatbot.git
 cd multimodal-emotion-chatbot
