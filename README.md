@@ -39,7 +39,7 @@ Response Generation → LLM generates an empathetic response
 
 Voice Output → Response is converted to speech (TTS)
 
-⚙️ Installation\\
+⚙️ Installation   
 1️⃣ Clone the repository
 git clone https://github.com/your-username/multimodal-emotion-chatbot.git
 cd multimodal-emotion-chatbot
@@ -72,12 +72,12 @@ Then open the displayed local URL (e.g., http://localhost:8501
 Click “🎙️ Start Talking” and interact with the chatbot in real time!
 
 🧠 Models Used
-Modality	Model	Source
-Text	bhadresh-savani/distilbert-base-uncased-emotion	Hugging Face
-Audio	audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim	Hugging Face
-Vision	DeepFace	OpenCV + DeepFace
-Response	facebook/blenderbot-400M-distill	Hugging Face
-STT	whisper-large-v3 (via Groq API)	Groq
+Modality   	Model	                                                    Source
+Text	      bhadresh-savani/distilbert-base-uncased-emotion         	Hugging Face
+Audio     	audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim	    Hugging Face
+Vision    	DeepFace	                                                OpenCV + DeepFace
+Response	  facebook/blenderbot-400M-distill	                        Hugging Face
+STT	        whisper-large-v3 (via Groq API)                         	Groq
 
 🛠️ Requirements
 
@@ -87,6 +87,3 @@ Microphone & webcam access
 
 FFmpeg installed (for pydub and deepface)
 
-🧑‍💻 Author
-
-Akash
